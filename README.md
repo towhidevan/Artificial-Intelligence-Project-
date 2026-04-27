@@ -16,14 +16,17 @@ Mystery_Solver is an intelligent decision support system that leverages Bayesian
 
 ```
 Mystery_Solver/
-├── main.py                  # Main code file to run the project
-├── README.md                # Project documentation (this file)
-├── requirements.txt         # List of libraries and dependencies
-├── data/                    # Subfolder for containing datasets
-├── support/                 # Subfolder containing other code files
-│   ├── __init__.py          # Code for Bayesian network logic
-│   └── mystery_solver.py    # Code to handle clue input from the user
-└── others/                  # Subfolder for project-related documents
+├── main.py                     # Main code file to run the project
+├── README.md                   # Project documentation (this file)
+├── requirements.txt            # List of libraries and dependencies
+├── data/                       # Subfolder for containing datasets
+├── support/                    # Subfolder containing other code files
+    └──__pycache__/
+    ├──__init__.cpython-311.py
+    ├──mystery_solver.cpython-311.py
+├──__init__.py                   # Code for Bayesian network logic
+├──mystery_solver.py             # Code to handle clue input from the user
+└── others/                      # Subfolder for project-related documents
     ├── Final presentation.pptx  # Final presentation file
     ├── final report.pdf         # Final project report
     ├── Update Presentation.pptx # Updated presentation file
