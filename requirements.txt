@@ -1,1 +1,9 @@
-
+pgmpy -- Probabilistic Graphical Models in Python (for Bayesian networks)
+streamlit -- Web app framework for data applications
+networkx -- Graph/network structure handling
+matplotlib -- Data visualization
+numpy -- Numerical computations
+pandas --  Data manipulation and analysis
+graphviz -- Graph visualization
+ipykernel -- the Python kernel that executes the code inside Jupyter.
+jupyter -- provides the interface where user write code, run it, and see results.
